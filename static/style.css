@@ -1,0 +1,64 @@
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #262626;
+}
+
+.content {
+    margin-top: 10em;
+}
+
+button.record_button {
+    width: 200px;
+    height: 50px;
+    border: solid 1px #846cd5;
+    border-radius: 99px;
+    background-color: #846cd5;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.secondary_button {
+  width: 160px;
+  height: 40px;
+  padding-top:10px;
+  background-color: #ffffff;
+  border: 0;
+  font-size: 14px;
+  color: #262626;
+}
+
+button:focus {outline:0;}
+
+.label {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.bottom-border-span {
+    border-bottom: 1px solid #846cd5;
+    padding-bottom: 0.5em;
+}
+
+.footer {
+    font-size: 14px;
+    color: #262626;
+    padding-top: 10em;
+    padding-bottom:10em;
+}
